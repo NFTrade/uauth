@@ -246,6 +246,7 @@ export default class Client {
     try {
       ;(options as Partial<LoginOptions>).responseMode = 'fragment'
       const request = await this.buildAuthorizeRequest(options)
+      console.log('enter here please');
       const response = await this.api.authorizeWithPopup(request, config)
       const authorization = await this.verifyAuthorizeResponse(
         request,
