@@ -1,3 +1,4 @@
+ // @ts-nocheck
 import {IdToken} from '@uauth/common'
 import {Jose} from 'jose-jwe-jws'
 import type {CryptoKeyGetter} from '../../types'

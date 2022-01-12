@@ -1,3 +1,4 @@
+ // @ts-nocheck
 export default function objectFromURLSearchParams(
   params: URLSearchParams,
 ): Record<string, string | string[]> {

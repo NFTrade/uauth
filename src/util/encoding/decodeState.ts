@@ -1,3 +1,4 @@
+ // @ts-nocheck
 import fromBase64 from './fromBase64'
 
 const decodeState = <T>(state: string): T => {

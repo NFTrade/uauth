@@ -1,3 +1,4 @@
+ // @ts-nocheck
 import decodeState from './decodeState'
 import encodeState from './encodeState'
 

@@ -1,3 +1,4 @@
+ // @ts-nocheck
 import {Jose} from 'jose-jwe-jws'
 import {CryptoKeyGetter} from '../../types'
 
